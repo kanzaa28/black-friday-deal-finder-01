@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dealhound — Black Friday 2026 Deal Finder</title>
+<meta name="description" content="38 real Black Friday 2026 deals, checked 27 Nov 2026, with an honest verdict on each: new low, strong price, routine sale or inflated.">
+<link rel="stylesheet" href="style.css">
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <div class="brand">DEALHOUND &middot; BLACK FRIDAY 2026</div>
+    <h1>Real Black Friday deals, <em>checked today</em> — and honestly graded.</h1>
+    <p>38 deals at Amazon, Walmart, Best Buy, Target, Samsung, Sephora and Oura. Every price was read on 27 November 2026 from the store or a deals source that names the store. Each deal carries a verdict: new low, strong price, routine sale — or inflated.</p>
+    <div id="stats"></div>
+  </div>
+</header>
+<div class="controls">
+  <input id="search" type="text" placeholder="Search deals — try “airpods”, “OLED”, “lego”…" aria-label="Search deals">
+  <select id="category" aria-label="Filter by category"></select>
+  <select id="store" aria-label="Filter by store"></select>
+  <select id="mindisc" aria-label="Minimum discount">
+    <option value="0">Any discount</option>
+    <option value="20">20% off or more</option>
+    <option value="30">30% off or more</option>
+    <option value="40">40% off or more</option>
+    <option value="50">50% off or more</option>
+  </select>
+  <select id="sort" aria-label="Sort deals">
+    <option value="best">Sort: best deal first</option>
+    <option value="discount">Sort: biggest discount</option>
+    <option value="price">Sort: lowest price</option>
+    <option value="saving">Sort: biggest saving ($)</option>
+  </select>
+</div>
+<p id="count"></p>
+<main class="wrap">
+  <div id="deals"></div>
+  <div id="compare-slot"></div>
+</main>
+<footer>
+  <div class="wrap">
+    <h2>How to read a verdict</h2>
+    <p class="legend"><span><b>NEW LOW</b> — lowest price seen this year</span><span><b>STRONG PRICE</b> — a deep cut on a product that rarely drops this far</span><span><b>ROUTINE SALE</b> — a real cut, but one this product sees often</span><span><b>INFLATED</b> — the “sale” price is above the real reference price</span></p>
+    <p>Method: each sale price and usual price was read on 27 Nov 2026 (WITA) from the store or a deals roundup that names the store; the discount on every card is computed from the two prices shown. Store links go to that store’s search for the exact product name. Prices can change or sell out — check the store page before you buy.</p>
+    <p>Deal finder for Black Friday (27 Nov) and Cyber Monday (30 Nov) 2026. Dealhound is an independent finder, not affiliated with any store named here.</p>
+  </div>
+</footer>
+</body>
+</html>
